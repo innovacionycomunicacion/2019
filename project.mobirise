@@ -35,8 +35,8 @@
     "path": "@PROJECT_PATH@",
     "siteFonts": [],
     "versionFirst": "4.7.6",
-    "uniqCompNum": 23,
-    "versionPublish": "4.9.3",
+    "uniqCompNum": 26,
+    "versionPublish": "4.9.5",
     "screenshot": "screenshot.png"
   },
   "pages": {
@@ -460,11 +460,11 @@
           "_name": "menu2",
           "_customHTML": "<section class=\"menu\" group=\"Menu\" plugins=\"DropDown, TouchSwipe\" always-top global not-draggable once=\"menu\" position-absolute>\n\n    <mbr-parameters>\n    <!-- Block parameters controls (Blue \"Gear\" panel) -->\n        <input type=\"checkbox\" title=\"Show Logo\" name=\"showLogo\" checked>\n        <input type=\"range\" title=\"Logo Size\" inline name=\"logoSize\" min=\"3.8\" max=\"8\" step=\"0.1\" value=\"5.2\" condition=\"showLogo\">\n        <input type=\"checkbox\" title=\"Show Brand Name\" name=\"showBrand\" checked>\n        <input type=\"checkbox\" title=\"Show Menu Items\" name=\"showItems\" checked>\n        <input type=\"color\" title=\"Items Hover Color\" name=\"itemsHoverColor\" value=\"#767676\" condition=\"showItems\">\n        <input type=\"checkbox\" title=\"Show Button(s)\" name=\"showButtons\">\n        <input type=\"checkbox\" title=\"Sticky\" name=\"sticky\" checked>\n        <input type=\"checkbox\" title=\"Collapsed\" name=\"collapsed\">\n        <input type=\"checkbox\" title=\"Transparent\" name=\"transparent\">\n        <input type=\"color\" title=\"Hamburger Color\" name=\"hamburgerColor\" value=\"#333333\">\n        <input type=\"color\" title=\"Background Color\" name=\"menuBgColor\" value=\"#2a6cb7\">\n    <!-- End block parameters -->\n    </mbr-parameters>\n\n    <nav class=\"navbar navbar-expand beta-menu navbar-dropdown align-items-center\" mbr-class=\"{\n        'navbar-fixed-top': sticky,\n        'navbar-toggleable-sm': !collapsed,\n        'collapsed': collapsed,\n        'bg-color transparent': transparent\n        }\">\n        <button class=\"navbar-toggler navbar-toggler-right\" type=\"button\" data-toggle=\"collapse\" data-target=\"#navbarSupportedContent\" aria-controls=\"navbarSupportedContent\" aria-expanded=\"false\" aria-label=\"Toggle navigation\">\n            <div class=\"hamburger\">\n                <span></span>\n                <span></span>\n                <span></span>\n                <span></span>\n            </div>\n        </button>\n        <div class=\"menu-logo\">\n            <div class=\"navbar-brand\">\n                <span mbr-if=\"showLogo\" class=\"navbar-logo\">\n                    <a href=\"https://mobirise.co\">\n                        <img src=\"@PROJECT_PATH@/assets/images/icono1-122x122.jpg\" alt=\"Mobirise\" mbr-style=\"{'height': logoSize + 'rem'}\" title>\n                    </a>\n                </span>\n                <span mbr-if=\"showBrand\" mbr-buttons mbr-theme-style=\"display-4\" class=\"navbar-caption-wrap\" data-toolbar=\"-mbrBtnMove,-mbrBtnAdd,-mbrBtnRemove\"><a class=\"navbar-caption text-black\" data-app-selector=\".navbar-caption\" href=\"https://mobirise.co\" data-app-placeholder=\"Type Text\">FACULTAD DE CIENCIAS DE LA EDUCACIÓN</a></span>\n            </div>\n        </div>\n        <div class=\"collapse navbar-collapse\" id=\"navbarSupportedContent\">\n            <ul mbr-if=\"showItems\" mbr-menu class=\"navbar-nav nav-dropdown\" mbr-theme-style=\"display-4\" mbr-class=\"{'nav-right': !showButtons,\n                'navbar-nav-top-padding': isPublish && !showBrand && !showLogo}\"><li class=\"nav-item\">\n                    <a class=\"nav-link link text-black\" href=\"index.html#content1-h\" data-app-selector=\".nav-link,.dropdown-item\" data-app-placeholder=\"Type Text\">\n                        Presentación</a>\n                </li>\n                <li class=\"nav-item\"><a class=\"nav-link link text-black\" href=\"index.html#content2-k\" data-app-selector=\".nav-link,.dropdown-item\" data-app-placeholder=\"Type Text\">\n                        Competencias</a></li><li class=\"nav-item\">\n                    <a class=\"nav-link link text-black\" href=\"index.html#content12-l\" data-app-selector=\".nav-link,.dropdown-item\" data-app-placeholder=\"Type Text\">\n                        Planeación</a>\n                </li><li class=\"nav-item\"><a class=\"nav-link link text-black\" href=\"index.html#content6-m\" data-app-selector=\".nav-link,.dropdown-item\" data-app-placeholder=\"Type Text\">Materiales</a></li><li class=\"nav-item\"><a class=\"nav-link link text-black\" href=\"https://goo.gl/forms/SAOVv7QLERWBgH8v1\" data-app-selector=\".nav-link,.dropdown-item\" data-app-placeholder=\"Type Text\" target=\"_blank\">\n                        Evaluación</a></li><li class=\"nav-item\"><a class=\"nav-link link text-black\" href=\"https://mobirise.co\" data-app-selector=\".nav-link,.dropdown-item\" data-app-placeholder=\"Type Text\">\n                        Directorio</a></li></ul>\n            <div mbr-if=\"showButtons\" mbr-buttons mbr-theme-style=\"display-4\" class=\"navbar-buttons mbr-section-btn\">\n                <a class=\"btn btn-sm btn-primary\" href=\"tel:+1-234-567-8901\">\n                    <span class=\"btn-icon mbri-mobile mbr-iconfont mbr-iconfont-btn\" data-app-selector=\".mbr-iconfont-btn\">\n                    </span>\n                    +1-234-567-8901\n                </a>\n            </div>\n        </div>\n    </nav>\n</section>",
           "_cid": "rjuFxMOfGC",
+          "_anchor": "menu2-g",
           "_protectedParams": [],
           "_global": true,
           "_once": "menu",
-          "_params": {},
-          "_anchor": "menu2-g"
+          "_params": {}
         },
         {
           "_styles": {
@@ -480,11 +480,30 @@
           "_name": "content5",
           "_customHTML": "<section class=\"mbr-section content5\" group=\"Article\" data-bg-video=\"{{bg.type == 'video' && bg.value.url}}\" mbr-class=\"{'mbr-parallax-background': bg.parallax}\">\n\n    <mbr-parameters>\n    <!-- Block parameters controls (Blue \"Gear\" panel) -->\n        <input type=\"range\" inline title=\"Top\" name=\"paddingTop\" min=\"0\" max=\"8\" step=\"1\" value=\"8\">\n        <input type=\"range\" inline title=\"Bottom\" name=\"paddingBottom\" min=\"0\" max=\"8\" step=\"1\" value=\"1\">\n\n        <input type=\"checkbox\" title=\"Show Title\" name=\"showTitle\" checked>\n        <input type=\"checkbox\" title=\"Show Subtitle\" name=\"showSubtitle\">\n        <input type=\"checkbox\" title=\"Show Text\" name=\"showText\">\n        <input type=\"checkbox\" title=\"Show Buttons\" name=\"showButtons\">\n\n        <fieldset type=\"background\" name=\"bg\" parallax>\n            <input type=\"image\" title=\"Background Image\" value=\"@PROJECT_PATH@/assets/images/logo1-1708x650.jpg\" parallax>\n            <input type=\"color\" title=\"Background Color\" value=\"#2a6cb7\" selected>\n            <input type=\"video\" title=\"Background Video\" value=\"https://www.youtube.com/watch?v=36YgDDJ7XSc\">\n        </fieldset>\n        <input type=\"checkbox\" title=\"Overlay\" name=\"overlay\" condition=\"bg.type !== 'color'\">\n        <input type=\"color\" title=\"Overlay Color\" name=\"overlayColor\" value=\"#232323\" condition=\"overlay && bg.type !== 'color'\">\n        <input type=\"range\" inline title=\"Opacity\" name=\"overlayOpacity\" min=\"0\" max=\"1\" step=\"0.1\" value=\"0.4\" condition=\"overlay && bg.type !== 'color'\">\n    <!-- End block parameters -->\n    </mbr-parameters>\n\n    <div class=\"mbr-overlay\" mbr-if=\"overlay && bg.type !== 'color'\" mbr-style=\"{'opacity': overlayOpacity, 'background-color': overlayColor}\">\n    </div>\n\n    <div class=\"container\">\n        <div class=\"media-container-row\">\n            <div class=\"title col-12 col-md-8\">\n                <h2 mbr-if=\"showTitle\" class=\"align-center mbr-bold mbr-white pb-3 mbr-fonts-style\" mbr-theme-style=\"display-5\">\n                    2DO. ENCUENTRO NACIONAL PARA EL INTERCAMBIO &nbsp;DE EXPERIENCIAS EDUCATIVAS INNOVADORAS</h2>\n                <h3 mbr-if=\"showSubtitle\" class=\"mbr-section-subtitle align-center mbr-light mbr-white pb-3 mbr-fonts-style\" mbr-theme-style=\"display-5\" data-app-selector=\".mbr-section-subtitle\">\n                    Article header with background image and parallax effect\n                </h3>\n                <p class=\"mbr-text align-center mbr-white pb-3 mbr-fonts-style\" mbr-theme-style=\"display-7\" data-app-selector=\".mbr-text\" mbr-if=\"showText\" mbr-article data-multiline>\n                    Shape your future web project with sharp design and refine coded functions\n                </p>\n                <div class=\"mbr-section-btn align-center\" mbr-if=\"showButtons\" mbr-buttons mbr-theme-style=\"display-4\" data-toolbar=\"-mbrBtnMove\">\n                    <a class=\"btn btn-primary\" href=\"https://mobirise.co\">LEARN MORE</a>\n                    <a class=\"btn btn-white-outline\" href=\"https://mobirise.co\">LIVE DEMO</a>\n                </div>\n            </div>\n        </div>\n    </div>\n</section>",
           "_cid": "rjuE3rmAlj",
+          "_anchor": "content5-e",
+          "_protectedParams": [],
+          "_global": false,
+          "_once": false,
+          "_params": {}
+        },
+        {
+          "alias": false,
+          "_styles": {
+            "padding-top": "(@paddingTop * 15px)",
+            "padding-bottom": "(@paddingBottom * 15px)",
+            "background-color": "@bgColor",
+            ".mbr-section-subtitle": {
+              "color": "#767676"
+            }
+          },
+          "_name": "content4",
+          "_customHTML": "<section class=\"mbr-section content4\" group=\"Article\" data-bg-video=\"{{bg.type == 'video' && bg.value.url}}\" mbr-class=\"{'mbr-parallax-background': bg.parallax}\">\n\n    <mbr-parameters>\n    <!-- Block parameters controls (Blue \"Gear\" panel) -->\n        <input type=\"range\" inline title=\"Top\" name=\"paddingTop\" min=\"0\" max=\"8\" step=\"1\" value=\"4\">\n        <input type=\"range\" inline title=\"Bottom\" name=\"paddingBottom\" min=\"0\" max=\"8\" step=\"1\" value=\"4\">\n\n        <input type=\"checkbox\" title=\"Show Title\" name=\"showTitle\" checked>\n        <input type=\"checkbox\" title=\"Show Subtitle\" name=\"showSubtitle\" checked>\n        <input type=\"checkbox\" title=\"Show Buttons\" name=\"showButtons\">\n        <input type=\"color\" title=\"Background Color\" name=\"bgColor\" value=\"#ffffff\">\n    <!-- End block parameters -->\n    </mbr-parameters>\n\n    <div class=\"container\">\n        <div class=\"media-container-row\">\n            <div class=\"title col-12 col-md-8\">\n                <h2 mbr-if=\"showTitle\" class=\"align-center pb-3 mbr-fonts-style\" mbr-theme-style=\"display-2\"><a href=\"https://innovacionycomunicacion.github.io/2019a/\" target=\"_blank\">Ejemplo de una Página web&nbsp;</a></h2>\n                <h3 mbr-if=\"showSubtitle\" data-app-selector=\".mbr-section-subtitle\" class=\"mbr-section-subtitle align-center mbr-light mbr-fonts-style\" mbr-theme-style=\"display-5\">(Por Niveles de Dificultad)</h3>\n                <div class=\"mbr-section-btn align-center py-4\" mbr-if=\"showButtons\" mbr-buttons mbr-theme-style=\"display-4\">\n                    <a class=\"btn btn-primary\" href=\"https://mobirise.co\">LEARN MORE</a>\n                    <a class=\"btn btn-black-outline\" href=\"https://mobirise.co\">LIVE DEMO</a>\n                </div>\n            </div>\n        </div>\n    </div>\n</section>",
+          "_cid": "rkDCwBsWcL",
           "_protectedParams": [],
           "_global": false,
           "_once": false,
           "_params": {},
-          "_anchor": "content5-e"
+          "_anchor": "content4-p"
         },
         {
           "_params": {
@@ -548,7 +567,7 @@
             "hideControls": false,
             "responsive": "1",
             "paddingTop": 0,
-            "paddingBottom": 0,
+            "paddingBottom": "4",
             "captionsEffect": "slide",
             "showBullets": false,
             "bgColor": "#5ca0ee",
@@ -641,6 +660,7 @@
           "_name": "gallery1",
           "_customHTML": "<section class=\"mbr-gallery mbr-slider-carousel\" group=\"Sliders & Gallery\" plugins=\"Masonry,BootstrapCarouselSwipe,Gallery,VimeoPlayer,SliderVideo\">\n\n    <mbr-parameters>\n    <!-- Block parameters controls (Blue \"Gear\" panel) -->\n        <input type=\"checkbox\" title=\"Full Width\" name=\"fullWidth\">\n        <input type=\"range\" title=\"Top\" name=\"paddingTop\" min=\"0\" max=\"9\" step=\"1\" value=\"6\" inline>\n        <input type=\"range\" title=\"Bottom\" name=\"paddingBottom\" min=\"0\" max=\"9\" step=\"1\" value=\"6\" inline>\n        <input type=\"color\" title=\"Overlay Color\" name=\"overlayColor\" value=\"#554346\">\n        <input type=\"checkbox\" title=\"Gradient Overlay\" name=\"gradOverlay\" checked>\n        <input type=\"color\" title=\"Overlay Color 2\" name=\"overlayColor2\" value=\"#45505b\" condition=\"gradOverlay\">\n        <input type=\"range\" title=\"Overlay Opacity\" name=\"overlayOpacity\" min=\"0\" max=\"1\" step=\"0.1\" value=\"0.7\" inline>\n        <input type=\"color\" title=\"Background Color\" name=\"bgColor\" value=\"#2a6cb7\">\n\n        <input type=\"gallery\" title=\"Gallery\" name=\"gallery\">\n    <!-- End block parameters -->\n    </mbr-parameters>\n\n    <div mbr-class=\"{'container': !fullWidth}\">\n        <div mbr-gallery=\"gallery\" mbr-gallery-spacing=\"1\"></div>\n    </div>\n\n</section>",
           "_cid": "rjuCPxUKZb",
+          "_anchor": "gallery1-d",
           "_protectedParams": [
             "text_all",
             "gallery__filtersTextStyle",
@@ -733,8 +753,7 @@
                 "active": false
               }
             ]
-          },
-          "_anchor": "gallery1-d"
+          }
         },
         {
           "_styles": {
@@ -771,11 +790,11 @@
           "_name": "map1",
           "_customHTML": "<section class=\"map1\" group=\"Maps\">\n\n    <mbr-parameters>   \n    <!-- Block parameters controls (Blue \"Gear\" panel) -->\n        <input type=\"map\" title=\"Map\" name=\"googleMap\" place-id=\"ChIJXRUP4zjZz4URyrsdMSoy-9o\" value=\"Facultad de Ciencias de la Educación, Tlaxcala\">   \n    <!-- End block parameters -->\n    </mbr-parameters> \n\n    <div class=\"google-map\" mbr-map=\"googleMap\">\n    </div>\n</section>",
           "_cid": "rjuua4OS5x",
+          "_anchor": "map1-8",
           "_protectedParams": [],
           "_global": false,
           "_once": false,
-          "_params": {},
-          "_anchor": "map1-8"
+          "_params": {}
         },
         {
           "_styles": {
@@ -793,11 +812,11 @@
           "_name": "content1",
           "_customHTML": "<section class=\"mbr-section article content1\">\n    \n    <mbr-parameters>\n    <!-- Block parameters controls (Blue \"Gear\" panel) -->\n        <input type=\"range\" inline title=\"Top\" name=\"paddingTop\" min=\"0\" max=\"8\" step=\"1\" value=\"8\">\n        <input type=\"range\" inline title=\"Bottom\" name=\"paddingBottom\" min=\"0\" max=\"8\" step=\"1\" value=\"8\">\n        <input type=\"range\" inline title=\"Width Content\" name=\"widthContent\" min=\"1\" max=\"4\" step=\"1\" value=\"3\">\n        <input type=\"color\" title=\"Background Color\" name=\"bgColor\" value=\"#efefef\">\n    <!-- End block parameters -->\n    </mbr-parameters> \n\n    <div class=\"container\">\n        <div class=\"media-container-row\">\n            <div class=\"mbr-text col-12 mbr-fonts-style\" mbr-theme-style=\"display-7\" data-app-selector=\".mbr-text\" data-multiline mbr-article mbr-class=\"{'col-md-6': widthContent == 1, 'col-md-8': widthContent == 2, 'col-md-10': widthContent == 3, 'col-md-12': widthContent == 4}\"><p>\n                <b> </b></p><p><b>PRESENTACIÓN</b></p><p>De manera independiente a las planeaciones didácticas (TPACK, aula invertida, formación on-line, b-learning, principalmente) que incluyan el uso de tecnologías, y que vayan a implementar los estudiantes de las licenciaturas en educación, se podría elaborar una página web, en tal caso es necesario un dominio en la elaboración de éstas. Este dominio requiere conocimientos pedagógicos y técnicos. Este curso cubre una introducción al conocimiento técnico del diseño web. Los conocimientos pedagógicos les indican a los estudiantes que deben iniciar con objetivos educativos claros, contenidos y actividades que les ayuden a conseguirlos. Esto les corresponde a los participantes, aunque se menciona durante la elaboración técnica. \n</p><p>El diseño web es un tema muy importante visto como un lenguaje bimedia (icónico y tipográfico). El objetivo del diseño web es la elaboración de páginas que cubran principalmente el equilibrio armónico entre estética, funcionalidad y su contribución al logro de objetivos educativos, los cuales son aspectos que condicionan el diseño web. \n</p><p>Técnicamente existen muchas maneras de elaborar una página web. Las páginas web actuales requieren ser: adaptables a las pantallas de todos los dispositivos que las visitan, de fácil navegación, conectadas a las redes sociales, con íconos y con una tipografía de fácil lectura, pero principalmente apoyar al docente para conseguir los objetivos educativos planeados.\n</p><p>En este curso no se toman en cuenta las plataformas educativas Moodle, Edmodo ni canvas porque no dan oportunidad de crear un diseño web.  Las ventajas del diseño web permiten mayor libertad para personalizar las presentaciones web.\n</p><p><b><br></b></p></div>\n        </div>\n    </div>\n</section>",
           "_cid": "rjuHXAEz0y",
+          "_anchor": "content1-h",
           "_protectedParams": [],
           "_global": false,
           "_once": false,
-          "_params": {},
-          "_anchor": "content1-h"
+          "_params": {}
         },
         {
           "_styles": {
@@ -811,11 +830,11 @@
           "_name": "content2",
           "_customHTML": "<section class=\"mbr-section article content1\">\n\n    <mbr-parameters>\n    <!-- Block parameters controls (Blue \"Gear\" panel) -->\n        <input type=\"range\" inline title=\"Top\" name=\"paddingTop\" min=\"0\" max=\"8\" step=\"1\" value=\"2\">\n        <input type=\"range\" inline title=\"Bottom\" name=\"paddingBottom\" min=\"0\" max=\"8\" step=\"1\" value=\"2\">\n        <input type=\"color\" title=\"Background Color\" name=\"bgColor\" value=\"#ffffff\">\n    <!-- End block parameters -->\n    </mbr-parameters> \n\n    <div class=\"container\">\n        <div class=\"media-container-row\">\n            <div class=\"mbr-text col-12 col-md-8 mbr-fonts-style\" mbr-theme-style=\"display-7\" data-multiline mbr-article>\n                <blockquote><b>COMPETENCIAS PREVIAS.</b></blockquote><blockquote><p><b>•\tHabilidad para planear la presentación de un contenido educativo: adecuado al nivel de estudios, ordenado de menor a mayor complejidad, con imágenes adecuadas, principalmente.\n&nbsp;</b></p><p><b><br></b><b style=\"font-size: 1.09rem;\">•\tCapacidad de trabajo en equipo. &nbsp;</b></p><p><b style=\"font-size: 1.09rem;\"><br></b><b style=\"font-size: 1.09rem;\">•\tCapacidad de conceptualizar y formalizar objetivos educativos para traducirlos a imágenes, texto, videos y otras maneras de entender conceptos que se planean en los usuarios de la página web a construir.&nbsp;</b></p></blockquote><blockquote><p><b>\n</b><b style=\"font-size: 1.09rem;\">COMPETENCIAS A DESARROLLAR.</b></p><p><b style=\"font-size: 1.09rem;\"><br></b><b style=\"font-size: 1.09rem;\">•\tCrear una página web adaptativa, versátil, estética, funcional con contenido educativo.&nbsp;</b></p><p><b style=\"font-size: 1.09rem;\"><br></b><b style=\"font-size: 1.09rem;\">• Incluir en la página web una manera de evaluar a sus usuarios.&nbsp;</b></p><p><b style=\"font-size: 1.09rem;\"><br></b><b style=\"font-size: 1.09rem;\">•\tPublicar la página web.&nbsp;</b></p><p><b style=\"font-size: 1.09rem;\"><br></b><b style=\"font-size: 1.09rem;\">•\tCapacidad de aplicar los conocimientos a la práctica.&nbsp;</b></p><p><b style=\"font-size: 1.09rem;\"><br></b><b style=\"font-size: 1.09rem;\">•\tOrientación a resultados.&nbsp;</b></p><p><b style=\"font-size: 1.09rem;\"><br></b></p><p><b style=\"font-size: 1.09rem;\"><br></b><b style=\"font-size: 1.09rem;\">COMPETENCIAS INTERPERSONALES.&nbsp;</b></p><p><b style=\"font-size: 1.09rem;\"><br></b><b style=\"font-size: 1.09rem;\">•\tPreparación de trabajos en equipo.&nbsp;</b></p><p><b style=\"font-size: 1.09rem;\"><br></b><b style=\"font-size: 1.09rem;\">•\tCapacidad de crítica y autocrítica.&nbsp;</b></p><p><b style=\"font-size: 1.09rem;\"><br></b><b style=\"font-size: 1.09rem;\">COMPETENCIAS ESPECÍFICAS.</b></p><p><b style=\"font-size: 1.09rem;\"><br></b><b style=\"font-size: 1.09rem;\">•\tConocimiento básico del lenguaje HTML: &lt;html&gt;, &lt;a href&gt;, &lt;br&gt;, &lt;img&gt;&nbsp;</b></p><p><b style=\"font-size: 1.09rem;\"><br></b><b style=\"font-size: 1.09rem;\">•\tConocimiento de las herramientas on-line para crear páginas web: wix, wordpress, mobirise, github, google classroom, google forms, principalmente.&nbsp;</b></p><p><b style=\"font-size: 1.09rem;\"><br></b><b style=\"font-size: 1.09rem;\">•\tDefinir la jerarquía de la información mediante la organización de los elementos en la página web.&nbsp;</b></p><p><b style=\"font-size: 1.09rem;\"><br></b><b style=\"font-size: 1.09rem;\">•\tDefinir el elemento que se usará en la página web: título, logo, menú, pie de página, imagen, acordeón, carrusel, botones, links, bloques de texto, bloques de imágenes, links a páginas de redes sociales, y links a páginas con contenido PDF, word y power point. &nbsp;</b></p><p><b style=\"font-size: 1.09rem;\"><br></b><b style=\"font-size: 1.09rem;\">•\tDefinir links a páginas de google forms para evaluar la participación de los usuarios de las páginas.&nbsp;</b></p></blockquote>\n            </div>\n        </div>\n    </div>\n</section>",
           "_cid": "rjuMaoMGC0",
+          "_anchor": "content2-k",
           "_protectedParams": [],
           "_global": false,
           "_once": false,
-          "_params": {},
-          "_anchor": "content2-k"
+          "_params": {}
         },
         {
           "_styles": {
@@ -866,11 +885,11 @@
           "_name": "content12",
           "_customHTML": "<section class=\"mbr-section article content12\">\n    <mbr-parameters>\n    <!-- Block parameters controls (Blue \"Gear\" panel) -->\n        <input type=\"range\" inline title=\"Top\" name=\"paddingTop\" min=\"0\" max=\"8\" step=\"1\" value=\"4\">\n        <input type=\"range\" inline title=\"Bottom\" name=\"paddingBottom\" min=\"0\" max=\"8\" step=\"1\" value=\"4\">\n        <input type=\"checkbox\" title=\"Stylized Counters\" name=\"stylizedCounters\" checked>\n        <input type=\"color\" title=\"Counter Color\" name=\"counterColor\" value=\"#149dcc\" condition=\"stylizedCounters\">\n        <input type=\"checkbox\" title=\"Stylized Counters\" name=\"stylizedCounters\" checked>\n        <input type=\"checkbox\" title=\"Mark\" name=\"mark\" checked condition=\"stylizedCounters\">\n        <select title=\"Counters Type\" name=\"countersType\" condition=\"stylizedCounters\">\n            <option value=\"default\" selected>Сircle Fill</option>\n            <option value=\"circle\">Circle</option>\n            <option value=\"square\">Square</option>\n        </select>   \n        <input type=\"color\" title=\"Background Color\" name=\"bgColor\" value=\"#cccccc\">\n    <!-- End block parameters -->\n    </mbr-parameters> \n\n    <div class=\"container\">\n        <div class=\"media-container-row\">\n            <div class=\"mbr-text counter-container col-12 col-md-8 mbr-fonts-style\" mbr-theme-style=\"display-7\" data-app-selector=\".mbr-text\" data-multiline mbr-article>\n                <ul>\n                    <li><b>PLANEACIÓN DEL CURSO: &nbsp; ACTIVIDADES A DESARROLLAR.</b></li><li><b>Crear una página simple con un menú. Utilizar el editor de textos notepad y el programa power point. &nbsp;(Opcional)\n</b></li><li><b>Crear una cuenta en <a href=\"https://github.com/join\" target=\"_blank\">Github.\n</a></b></li><li><b>Seleccionar una materia, tema o tópico de las experiencias educativas que ud. imparte.</b></li><li><b>A partir del tema anterior, <a href=\"http://tugimnasiacerebral.com/mapas-conceptuales-y-mentales/que-es-un-mapa-conceptual\" target=\"_blank\">crear un mapa conceptual </a>para planear la página web.\n</b></li><li><b>Buscar imágenes para la página en google.\n También buscar y subir documentos a la nube \"google drive\" de archivos &nbsp;PDF, WORD, POWER POINT del material de su curso.</b></li><li><b style=\"font-size: 1rem;\">Descargar e instalar la aplicación <a href=\"https://mobirise.com/es/\" target=\"_blank\" class=\"text-primary\">Mobirise.&nbsp;</a></b><br></li><li><b>Crear o usar una cuenta de google.\n&nbsp;</b></li><li><b>Crear la página web en Mobirise.\n</b></li><li><b>Publicar la página con Github.\n</b></li><li><b>Crear un formulario en google forms. Incluir preguntas que confirmen la revisión del material publicado en la página web.\n</b></li><li><b>Reflexión sobre el aprendizaje de los participantes en la sesión sobre el diseño de páginas web.</b></li>\n                </ul>\n            </div>\n        </div>\n    </div>\n</section>",
           "_cid": "rjuNKhzmxs",
+          "_anchor": "content12-l",
           "_protectedParams": [],
           "_global": false,
           "_once": false,
-          "_params": {},
-          "_anchor": "content12-l"
+          "_params": {}
         },
         {
           "_styles": {
@@ -916,11 +935,11 @@
           "_name": "content6",
           "_customHTML": "<section class=\"mbr-section content6\" group=\"Article\">\n    \n    <mbr-parameters>\n    <!-- Block parameters controls (Blue \"Gear\" panel) -->\n      <input type=\"range\" inline title=\"Top\" name=\"paddingTop\" min=\"0\" max=\"8\" step=\"1\" value=\"4\">\n      <input type=\"range\" inline title=\"Bottom\" name=\"paddingBottom\" min=\"0\" max=\"8\" step=\"1\" value=\"4\">\n\n      <input type=\"range\" inline title=\"Media Size\" name=\"mediaSize\" min=\"10\" max=\"200\" step=\"5\" value=\"60\">\n        <input type=\"checkbox\" title=\"Text On Right/Left\" name=\"reverseContent\">  \n      <input type=\"color\" title=\"Background Color\" name=\"bgColor\" value=\"#ffffff\">\n    <!-- End block parameters -->\n    </mbr-parameters> \n    \n    <div class=\"container\">\n        <div class=\"media-container-row\">\n            <div class=\"col-12 col-md-8\">\n                <div class=\"media-container-row\">\n                    <div class=\"mbr-figure\" mbr-style=\"{'width': mediaSize + '%'}\">\n                      <img src=\"@PROJECT_PATH@/assets/images/15233689677632-436x244.jpg\" alt=\"Mobirise\" title>  \n                    </div>\n                    <div class=\"media-content\">\n                        <div class=\"mbr-section-text\">\n                            <p class=\"mbr-text mb-0 mbr-fonts-style\" mbr-theme-style=\"display-7\" data-app-selector=\".mbr-text\"><b>MATERIALES</b><br><br><b>UNIDAD 1. &nbsp;INTRODUCCIÓN</b><br><br><b><a href=\"https://drive.google.com/open?id=1XsiFKOhR4DlzJ7H4Okyxot8wZtaPrrPb\" target=\"_blank\">Presentación 1.&nbsp;</a></b><br><br><b><a href=\"https://drive.google.com/open?id=1XsiFKOhR4DlzJ7H4Okyxot8wZtaPrrPb\" target=\"_blank\">P</a>resentación 2&nbsp;</b><br><br><b>Presentación 3</b><br><br><b>Presentación 4</b><br><br><b>UNIDAD 2. &nbsp;</b><br><br><b>UNIDAD 3.&nbsp;</b></p>\n                        </div>\n                    </div>\n                </div>\n            </div>\n        </div>\n    </div>\n</section>",
           "_cid": "rjv3sZNSQ3",
+          "_anchor": "content6-m",
           "_protectedParams": [],
           "_global": false,
           "_once": false,
-          "_params": {},
-          "_anchor": "content6-m"
+          "_params": {}
         },
         {
           "_styles": {
