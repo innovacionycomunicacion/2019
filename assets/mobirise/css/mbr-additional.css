@@ -1961,6 +1961,12 @@ body {
   padding-bottom: 0px;
   background-color: #e4d295;
 }
+#custom-html-r {
+  /* Type valid CSS here */
+}
+#custom-html-r .my-image {
+  width: 100%;
+}
 .cid-rjuAQmG3qi {
   padding-top: 45px;
   padding-bottom: 45px;
