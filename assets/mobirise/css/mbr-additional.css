@@ -2098,9 +2098,15 @@ body {
 #custom-html-r .my-image {
   width: 100%;
 }
+#custom-html-w {
+  /* Type valid CSS here */
+}
+#custom-html-w .my-image {
+  width: 100%;
+}
 .cid-rjuAQmG3qi {
-  padding-top: 45px;
-  padding-bottom: 45px;
+  padding-top: 30px;
+  padding-bottom: 0px;
   background-color: #2a6cb7;
 }
 @media (max-width: 767px) {
