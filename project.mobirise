@@ -828,6 +828,12 @@
             },
             "& when (@bg-type = 'image')": {
               "background-image": "url(@bg-value)"
+            },
+            "H2": {
+              "color": "#b1a374"
+            },
+            ".mbr-section-subtitle": {
+              "color": "#e4d295"
             }
           },
           "_name": "content5",
@@ -895,6 +901,9 @@
                   "padding": "0 2rem 2rem 2rem !important"
                 }
               }
+            },
+            "H2": {
+              "color": "#e4d295"
             }
           },
           "_name": "testimonials4",

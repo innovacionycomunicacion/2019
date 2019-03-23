@@ -1901,6 +1901,12 @@ body {
   padding-bottom: 60px;
   background-color: #0f7699;
 }
+.cid-rlyG2sGqhh H2 {
+  color: #b1a374;
+}
+.cid-rlyG2sGqhh .mbr-section-subtitle {
+  color: #e4d295;
+}
 .cid-rlytvXM0Dl {
   padding-top: 15px;
   padding-bottom: 0px;
@@ -1939,6 +1945,9 @@ body {
     width: 100% !important;
     height: auto !important;
   }
+}
+.cid-rlytvXM0Dl H2 {
+  color: #e4d295;
 }
 .cid-rlyxQ98tB1 {
   padding-top: 15px;
